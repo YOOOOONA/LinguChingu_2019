@@ -1,0 +1,4 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('gson-2.8.5.jar'))
+dependencies {
+}

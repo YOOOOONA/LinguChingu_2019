@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <include
+        android:id="@+id/icHeader"
+        layout="@layout/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/clean"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/clean"
+        android:text="WRITE"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/clean"
+        android:text="VIEW"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/clean"
+        android:visibility="gone"
+        android:text="모두보기" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="411dp"
+        android:layout_height="393dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        app:mcv_selectionColor="#a9dbf0cb"
+        app:mcv_showOtherDates="defaults" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="161dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundround"
+        android:text="CAMERA"
+        android:textColor="#303F9F"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -17,6 +17,6 @@ technique
 meaning
 -------
 <div>
-  <img width="800" height="500" src="https://user-images.githubusercontent.com/42761910/61368371-abc12c00-a8c8-11e9-9377-68c892678886.png">
+  <img width="800" height="400" src="https://user-images.githubusercontent.com/42761910/61368371-abc12c00-a8c8-11e9-9377-68c892678886.png">
 </div>
 

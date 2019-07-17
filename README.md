@@ -4,8 +4,8 @@ Real_time Object Detection을 이용한 실생활 한국어 Image Dictionary + D
 screenshots & explanation
 -------------------------
 <div>
-  <img width="500" height="500" src="https://user-images.githubusercontent.com/42761910/61368297-86ccb900-a8c8-11e9-9950-4f7ac0cd7dbd.png">
-  <img width="500" src="https://user-images.githubusercontent.com/42761910/61368337-9d731000-a8c8-11e9-880b-9e356d0bc33c.png">
+  <img width="400" height="500" src="https://user-images.githubusercontent.com/42761910/61368297-86ccb900-a8c8-11e9-9950-4f7ac0cd7dbd.png">
+  <img width="400" src="https://user-images.githubusercontent.com/42761910/61368337-9d731000-a8c8-11e9-880b-9e356d0bc33c.png">
 </div>
 
 technique
